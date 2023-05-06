@@ -54,12 +54,14 @@ nav{
 
 .slider{
     background: url("https://i.pinimg.com/564x/75/f0/97/75f0977e5d87b8fda51fafc4c2198cef.jpg");
-    /* clip-path: polygon(0 0, 100% 0, 100%100%, 0 100%, 0 100%, 0 0%); */
+    clip-path: polygon(0 0, 100% 0, 100%100%, 0 100%, 0 100%, 0 0%);
+    overflow: hidden;
 }
 
 .sliderWrapper{
     display: flex;
     width: 500vw;
+    transition: all 0.5s ease-in-out;
 }
 
 .sliderItem{
